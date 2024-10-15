@@ -7,7 +7,7 @@ survey <- read.csv('Homework1_Bonds.csv')
 table(survey$Result)
 
 #Are there any differences in the rates of approved bonds across the four different government types? 
-prop.table(table(survey$Type, survey$Result), margin = 2)
+prop.table(table(survey$Type, survey$Result), margin = 3)
 
 
 
